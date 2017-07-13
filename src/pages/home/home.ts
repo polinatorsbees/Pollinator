@@ -7,7 +7,13 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  todo = {}
+  logForm() {
+    console.log(this.todo)
+  }
+
   constructor(public navCtrl: NavController) {
+    this.todo={ }
 
   }
 
